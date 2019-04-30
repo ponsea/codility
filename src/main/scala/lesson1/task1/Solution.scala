@@ -1,5 +1,7 @@
 package lesson1.task1
 
+// Report: https://app.codility.com/demo/results/trainingV9F7S4-255/
+
 object Solution {
   def solution(n: Int): Int = {
     val (max, _, _) = n.toBinaryString.foldLeft((0, 0, false)) { case ((max, count, isCounting), current) =>

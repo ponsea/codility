@@ -2,6 +2,8 @@ package lesson4.task1
 
 import scala.util.Try
 
+// Report: https://app.codility.com/demo/results/training2BTSQ9-ZHW/
+
 object Solution {
   def solution(a: Array[Int]): Int = {
     val table = IndexedSeq.fill(a.length)(false)

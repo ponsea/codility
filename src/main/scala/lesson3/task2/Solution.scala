@@ -1,5 +1,7 @@
 package lesson3.task2
 
+// Report: https://app.codility.com/demo/results/trainingWKAE4G-GMD/
+
 object Solution {
   def solution(a: Array[Int]): Int = {
     val table = IndexedSeq.fill(a.length + 1)(false)

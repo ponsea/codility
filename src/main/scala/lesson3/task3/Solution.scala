@@ -1,5 +1,7 @@
 package lesson3.task3
 
+// Report: https://app.codility.com/demo/results/trainingYWHRFX-QY4/
+
 object Solution {
   def solution(a: Array[Int]): Int = {
     val sumsFromLeft = a.tail.foldLeft(IndexedSeq(a.head)) { (acc, cur) =>
